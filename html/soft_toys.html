@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>home</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <link href='https://fonts.googleapis.com/css?family=Berkshire Swash' rel='stylesheet'>
+ <link rel="stylesheet" href="../CSS/styles.css"> </style>
+</head>
+<body onload="functionAll()" >
+
+<nav class="navbar navbar-inverse navbar-fixed-top">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      
+     <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>                        
+      </button>
+      
+      <a class="navbar-brand" href="#">doorsteps</a>
+    </div>
+     <div class="collapse navbar-collapse" id="myNavbar">
+    <ul class="nav navbar-nav">
+      <li><a href="../index.html">Home</a></li>
+      <li ><a href="mobile.html">Mobiles</a></li>
+      <li ><a href="laptop.html">Laptops</a></li>
+      <li  ><a href="clothes.html">Clothes</a></li>
+      <li class="active" ><a href="soft_toys.html">Soft Toys</a></li>
+      <li><a href="pendrive.html">Pendrives</a></li>
+    </ul>
+    <ul class="nav navbar-nav navbar-right">
+      <li class="dropdown">
+        <a class="dropdown-toggle" data-toggle="dropdown" href="#">Filters
+        <span class="caret"></span></a>
+         <ul class="dropdown-menu">
+          <li onclick="functionAll()"><a href="#">All</a> </li>
+          <li onclick="functionFil1()"><a href="#">below 300</a></li>
+          <li onclick="functionFil2()"><a href="#">below 500</a></li>
+          <li onclick="functionFil3()"><a href="#">above 500</a></li>
+          
+
+           </ul>
+
+      </li>
+    </ul>
+  </div>
+</div>
+</nav>
+<div class="container">
+
+<div id="myCarousel" class="carousel slide" data-ride="carousel">
+    <!-- Indicators -->
+    <ol class="carousel-indicators">
+      <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+      <li data-target="#myCarousel" data-slide-to="1"></li>
+      <li data-target="#myCarousel" data-slide-to="2"></li>
+    </ol>
+
+    <!-- Wrapper for slides -->
+    <div class="carousel-inner">
+      <div class="item active">
+        <img src="../images/lactel-doudou1-english-low-res.jpg" alt="toy1" style="width:100%;">
+      </div>
+
+      <div class="item">
+        <img src="../images/EMGNDonors2.jpg" alt="toy2" style="width:100%;">
+      </div>
+    
+      <div class="item">
+        <img src="../images/maxresdefault.jpg" alt="toy3" style="width:100%;">
+      </div>
+    </div>
+
+    <!-- Left and right controls -->
+    <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+      <span class="glyphicon glyphicon-chevron-left"></span>
+      <span class="sr-only">Previous</span>
+    </a>
+    <a class="right carousel-control" href="#myCarousel" data-slide="next">
+      <span class="glyphicon glyphicon-chevron-right"></span>
+      <span class="sr-only">Next</span>
+    </a>
+  </div>
+
+</div>
+<h1>          </h1>
+<div class="container">
+<div class="row">
+<div class="col-sm-4">
+<h4 class="text-center" id="1tit"></h4>
+<img width="100%" height="400" id="1img" >
+<b><p class="text-center" id="1pri"></p></b>
+<p class="text-center" id="1desc"></p>
+</div>
+<div class="col-sm-4">
+<h4 class="text-center" id="2tit"></h4>
+<img width="100%" height="400" id="2img" >
+<b><p class="text-center" id="2pri"></p></b>
+<p class="text-center" id="2desc"></p>
+</div>
+<div class="col-sm-4">
+<h4 class="text-center" id="3tit"></h4>
+<img width="100%" height="400" id="3img" >
+<b><p class="text-center" id="3pri"></p></b>
+<p class="text-center" id="3desc"></p>
+</div>
+</div>
+
+<div class="row"> 
+<div class="col-sm-4">
+
+<h4 class="text-center" id="4tit"></h4>
+<img width="100%" height="400" id="4img">
+<b><p class="text-center" id="4pri"></p></b>
+<p class="text-center" id="4desc"></p>
+ </div>
+<div class="col-sm-4">
+
+<h4 class="text-center" id="5tit"></h4>
+<img width="100%" height="400" id="5img">
+<b><p class="text-center" id="5pri"></p></b>
+<p class="text-center" id="5desc"></p>
+ </div>
+<div class="col-sm-4">
+
+<h4 class="text-center" id="6tit"></h4>
+<img width="100%" height="400" id="6img">
+<b><p class="text-center" id="6pri"></p></b>
+<p class="text-center" id="6desc"></p>
+ </div>
+</div>
+</div>
+
+<div class="effects">
+<h1>Contact Information</h1>
+<p>Land line : 044 - 26678903 </p>
+<p>Mobile no : 96853 86302</p>
+<p>Email id : doorsteps@gmail.com</p>
+</div>
+
+
+<script src="../Js/soft_toys.js">
+
+</script>
+</body>
+</html>
